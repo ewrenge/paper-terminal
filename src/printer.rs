@@ -66,7 +66,7 @@ impl Scope {
                     "    ".to_string()
                 } else {
                     *handled = true;
-                    "•   ".to_string()
+                    "• ".to_string()
                 }
             }
             Scope::CodeBlock(..) => "  ".to_string(),
